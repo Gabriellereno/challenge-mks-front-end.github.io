@@ -19,7 +19,7 @@ input {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 1000px;
-  gap: 30px 15px;
+  gap: 30px 20px;
   margin: 0 auto;
   padding: 80px;
   justify-items: center;
@@ -115,4 +115,26 @@ input {
   background-repeat: no-repeat;
   height: 15px;
   width: 20px;
+}
+@media (max-width: 1200px) {
+  .produto {
+    height: 270px;
+    width: 230px;
+  }
+  .produto img {
+    height: 100px;
+  }
+}
+@media (max-width: 1000px) {
+  .produtosContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 700px;
+  }
+  .produto {
+    height: 270px;
+    width: 230px;
+  }
+  .produto img {
+    height: 100px;
+  }
 }

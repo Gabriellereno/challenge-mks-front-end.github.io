@@ -75,7 +75,7 @@ const Cart = ({
                   }, 0)}
               </p>
             </div>
-            {itensDoCarrinho.length > 0 ? (
+            {carrinhoFormatado.length > 0 ? (
               <input
                 className={style.cartFinalizar}
                 type="button"
