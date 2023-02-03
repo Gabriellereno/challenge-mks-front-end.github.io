@@ -108,7 +108,7 @@ const Home = () => {
     },
     {
       id: 4,
-      amount: 1,
+      amount: 2,
     },
     {
       id: 5,
